@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         imagem.setImageResource(android.R.drawable.star_big_off);
 
         TextView textView = new TextView(getApplicationContext());
+        textView.setBackgroundResource(R.color.black);
         textView.setText("Olá Toast");
 
         Toast toast = new Toast( getApplicationContext());
